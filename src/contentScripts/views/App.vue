@@ -6,9 +6,7 @@
       m="y-auto r-2"
       transition="opacity duration-300"
       :class="show ? 'opacity-100' : 'opacity-0'"
-    >
-      Vitesse WebExt
-    </div>
+    >Vitesse WebExt</div>
     <div
       class="flex w-10 h-10 rounded-full shadow cursor-pointer"
       bg="teal-600 hover:teal-700"
@@ -16,6 +14,7 @@
     >
       <pixelarticons-power class="block m-auto text-white text-lg" />
     </div>
+    <div class="bg-red-500" />
   </div>
 </template>
 

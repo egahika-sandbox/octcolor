@@ -15,11 +15,13 @@ specifiers:
   cross-env: ^7.0.3
   crx: ^5.0.1
   eslint: ^7.32.0
+  eslint-config-prettier: ^8.3.0
   esno: ^0.10.0
   fs-extra: ^10.0.0
   kolorist: ^1.5.0
   npm-run-all: ^4.1.5
   rimraf: ^3.0.2
+  typed-query-selector: ^2.6.1
   typescript: ^4.4.3
   unplugin-auto-import: ^0.4.8
   unplugin-icons: ^0.11.4
@@ -47,11 +49,13 @@ devDependencies:
   cross-env: 7.0.3
   crx: 5.0.1
   eslint: 7.32.0
+  eslint-config-prettier: 8.3.0_eslint@7.32.0
   esno: 0.10.0
   fs-extra: 10.0.0
   kolorist: 1.5.0
   npm-run-all: 4.1.5
   rimraf: 3.0.2
+  typed-query-selector: 2.6.1
   typescript: 4.4.3
   unplugin-auto-import: 0.4.8_@vueuse+core@7.5.1+vite@2.6.2
   unplugin-icons: 0.11.4_d7afbeb2654c3780066bb7395b84518f
@@ -2137,6 +2141,15 @@ packages:
   /escape-string-regexp/4.0.0:
     resolution: {integrity: sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==}
     engines: {node: '>=10'}
+    dev: true
+
+  /eslint-config-prettier/8.3.0_eslint@7.32.0:
+    resolution: {integrity: sha512-BgZuLUSeKzvlL/VUjx/Yb787VQ26RU3gGjA3iiFvdsp/2bMfVIWUVP7tjxtjS0e+HP409cPlPvNkQloz8C91ew==}
+    hasBin: true
+    peerDependencies:
+      eslint: '>=7.0.0'
+    dependencies:
+      eslint: 7.32.0
     dev: true
 
   /eslint-config-standard/16.0.3_dfa64ed3583b1f068d7b5761cc0291ce:
@@ -5199,6 +5212,10 @@ packages:
   /type-fest/0.8.1:
     resolution: {integrity: sha512-4dbzIzqvjtgiM5rw1k5rEHtBANKmdudhGyBEajN01fEyhaAIhsoKNy6y7+IN93IfpFtwY9iqi7kD+xwKhQsNJA==}
     engines: {node: '>=8'}
+    dev: true
+
+  /typed-query-selector/2.6.1:
+    resolution: {integrity: sha512-nzzcDrI0nncM5XTNyqeG7MrcXTx8lelUtNlTP+NvpnOfRzApyr+ZW4H/FoOaPfzmjn++Tf0ZxXpBN7Q3FN3ERw==}
     dev: true
 
   /typedarray-to-buffer/3.1.5:
